@@ -12,7 +12,9 @@ INCS = -I$(INC_DIR)
 SRCS = \
 	$(SRC_DIR)/main.c \
 	$(SRC_DIR)/utils.c \
-	$(SRC_DIR)/validation.c
+	$(SRC_DIR)/validation.c \
+	$(SRC_DIR)/get_next_line.c \
+	$(SRC_DIR)/get_next_line_utils.c
 
 OBJS = $(SRCS:.c=.o)
 
