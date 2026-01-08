@@ -1,0 +1,6 @@
+✅ Correct validation logic (conceptual)
+
+You must check:
+
+“The last 4 characters of the filename are .cub,
+AND there is no other .cub before it.”
